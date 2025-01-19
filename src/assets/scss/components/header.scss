@@ -63,7 +63,7 @@
             z-index: var(--z-index-3);
             flex-direction: column;
             justify-content: center;
-            width: 120dvh;
+            width: 80vw;
             height: 100dvh;
             background-color: var(--neutral-color-10);
             opacity: 0;
@@ -78,14 +78,6 @@
                 opacity: 1;
                 visibility: visible;
             }
-        }
-
-        @include mobile {
-            width: 65dvh;
-        }
-
-        @include small-mobile {
-            width: 57.6dvh;
         }
     }
 
