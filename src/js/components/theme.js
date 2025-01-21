@@ -11,8 +11,6 @@ export const useTheme = () => {
     }
 
     themeSwitcher.addEventListener('click', () => {
-
-
         if (themeTargetDataset.theme === 'light') {
             themeTargetDataset.theme = 'dark';
             localStorage.setItem('theme', 'dark');
