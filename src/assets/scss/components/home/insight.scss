@@ -3,10 +3,15 @@
         border-top: 1px solid var(--neutral-color-30);
         padding-top: 160px;
         padding-bottom: 91px;
-    }
 
-    @include mobile {
-        padding-top: 86px;
+        @include mobile {
+            padding-top: 86px;
+            padding-bottom: 61px;
+        }
+
+        @include small-mobile {
+            padding-bottom: 41px;
+        }
     }
 
     &__title {
